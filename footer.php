@@ -1,53 +1,55 @@
-<link rel="stylesheet" type="text/css" href="./css/footer.css" />
-<script src="https://kit.fontawesome.com/22fcc891fe.js" crossorigin="anonymous"></script>
+
 
 <footer>
-
-    <div class=trifooter>
-        <div class=trifooterpartduo>
-            <div class=trifooterpart>
-                <p>Lorem Ipsum</p>
-                <div><a href=>Lorem Ipsum</a></div>
-                <div><a href=>Lorem Ipsum</a></div>
-                <div><a href=>Lorem Ipsum</a></div>
-            </div>
-            <div class=trifooterpart>
-                <p>Lorem Ipsum</p>
-                <div><a href=>Lorem Ipsum</a></div>
-                <div><a href=>Lorem Ipsum</a></div>
-                <div><a href=>Lorem Ipsum</a></div>
-            </div>
-        </div>
-        <div class=zelogo>Logo</div>
+  
+  <div class=trifooter>
+    <div class=trifooterpartduo>
+      <div class=trifooterpart>
+        <p>Lorem Ipsum</p>
+        <div><a href="#">Lorem Ipsum</a></div>
+        <div><a href="#">Lorem Ipsum</a></div>
+        <div><a href="#">Lorem Ipsum</a></div>
+        
+      </div>
+      <div class=trifooterpart>
+        <p>Lorem Ipsum</p>
+        <div><a href="#">Lorem Ipsum</a></div>
+        <div><a href="#">Lorem Ipsum</a></div>
+        <div><a href="#">Lorem Ipsum</a></div>
+      </div>
+    </div>
+    <div class=zelogo>Logo</div>
+    <div>
+      <div class=trifooterpartsolo>
+        
         <div>
-            <div class=trifooterpartsolo>
-                
-                <div>
-                    <div class=footawesome>
-                <div><a href=><i class="fab fa-twitter-square"></i></a></div>
-                <div><a href=><i class="fab fa-facebook-square"></i></a></div>
-                    </div>
-                    <p>2020 Simplon</p>
-                </div>
-            </div>
+          <div class=footawesome>
+            <div><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+            <div><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+          </div>
+          <p>2020 Simplon</p>
         </div>
+      </div>
+    </div>
+  </div>
 </footer>
+
 <div id="back-to-top">
-      <button onclick="topFunction()" id="totop" title="back-to-top"><i class="fas fa-chevron-up"></i></button> 
-    </div><!-- /#back-to-top -->
+  <button onclick="topFunction()" id="totop" title="back-to-top"><i class="fas fa-chevron-up"></i></button> 
+</div><!-- /#back-to-top -->
 <script>  
   mybutton = document.getElementById("totop");
   window.onscroll = function() {scrollFunction()};
-
+  
   function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
   }
-}
-function topFunction() {
-  document.body.scrollTop = 0; // Safari
-  document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
-}
-  </script>
+  function topFunction() {
+    document.body.scrollTop = 0; // Safari
+    document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
+  }
+</script>
