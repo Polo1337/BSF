@@ -1,14 +1,63 @@
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="img/femme.png" class="card-img" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
+<div class="SNS">
+        <div id="fb-root">
+        <div class="fb-page float-right" data-href="https://www.facebook.com/BonSensFrancais" data-tabs="timeline"
+            data-width="350px" data-height="" data-small-header="false" data-adapt-container-width="true"
+            data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/BonSensFrancais" class="fb-xfbml-parse-ignore"><a
+                    href="https://www.facebook.com/BonSensFrancais%22%3ELe Bon Sens Français"></a></blockquote>
+                    </div>
+        </div>
+<div>
+<section class="flex  flex-wrap news " style=" justify-content: center;">
+    <article id="featured" class="md:w-2/4 text-center  ">
+        <a href="#"><img class="flex" src="img/dark.jpg" alt="" /></a>
+        <div class="momo ">
+            <h1>Un barbecue Dark Vador, pour révéler le côté obscur des grillades</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis, nec cursus ipsum arcu nec felis. Mauris sed lectus dui. Suspendisse enim elit, tempor ac ullamcorper et, eleifend quis sem. Sed euismod sagittis ligula, a imperdiet sapien molestie nec. Curabitur ut eros a justo fermentum vulputate ac sit amet metus.</p>
+        <a href="#" class="readmore">Read more</a>
+    </article>
+    <article class="md:w-2/4 text-center">
+        <a href="#"><img src="img/cul.jpg" alt="" /></a>
+        <div class="momo">
+            <h1>Top 10 des mots classes pour parler de cul, pour être salace mais chic</h1>
+        </div>
+        <p> Aenean quis dignissim diam. Etiam venenatis congue velit, varius gravida mi volutpat ac. Sed ut pretium dolor. Etiam tempor felis ac eros dictum quis consectetur dolor tristique. Aliquam scelerisque, odio vel luctus commodo, nisl nisl vehicula metus, ut lobortis eros sem blandit est.</p>
+        <a href="#" class="readmore">Read more</a>
+    </article>
+    <article class="rightcl md:w-2/4 text-center" > 
+        <a href="#"><img src="img/insulte.jpg" alt="" /></a>
+        <div class="momo">
+            <h1>Top 15 des pires insultes, celles qui font très mal à ton amour propre</h1>
+        </div>
+        <p>1. "Je vais t'enculer tellement fort, que celui qui arrivera à enlever ma bite de ton cul, on l'appellera le Roi Arthur !"</br>
+            2. "Vieille trousse à bites" </br>
+            ...etc </p>
+        <a href="#" class="readmore">Read more</a>
+    </article>
+    <article id="featured" class="md:w-2/4 text-center">
+        <a href="#"><img src="img/enfant.jpg" alt="" /></a>
+        <div class="momo">
+            <h1>Top 10 des dessins d’enfants les plus foirés de l’Histoire, enfin quand on comprend rien à l’Art</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis, nec cursus ipsum arcu nec felis. Mauris sed lectus dui. Suspendisse enim elit, tempor ac ullamcorper et, eleifend quis sem. Sed euismod sagittis ligula, a imperdiet sapien molestie nec. Curabitur ut eros a justo fermentum vulputate ac sit amet metus.</p>
+        <a href="#" class="readmore">Read more</a>
+    </article>
+    <article class="md:w-2/4 text-center">
+        <a href="#"><img src="img/rare.jpg" alt="" /></a>
+        <div class="momo">
+            <h1>Top 15 des trucs qui étaient considérés comme normaux autrefois, mais qui sont très très chelous</h1>
+        </div>
+        <p> Aenean quis dignissim diam. Etiam venenatis congue velit, varius gravida mi volutpat ac. Sed ut pretium dolor. Etiam tempor felis ac eros dictum quis consectetur dolor tristique. Aliquam scelerisque, odio vel luctus commodo, nisl nisl vehicula metus, ut lobortis eros sem blandit est.</p>
+        <a href="#" class="readmore">Read more</a>
+    </article>
+    <article class="rightcl md:w-2/4 text-center">
+        <a href="#"><img src="img/monopoly.jpg" alt="" /></a>
+        <div class="momo">
+            <h1>Un Monopoly qui se termine en MOINS de 10 MINUTES, du jamais vu !</h1>
+        </div>
+        <p>Etiam tempor felis ac eros dictum quis consectetur dolor tristique. Aliquam scelerisque, odio vel luctus commodo, nisl nisl vehicula metus, ut lobortis eros sem blandit est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis.</p>
+        <a href="#" class="readmore">Read more</a>
+    </article>
+</section>
 </div>
