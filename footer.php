@@ -1,6 +1,6 @@
 
 
-<footer>
+<footer class="bg-blue-500">
   
   <div class=trifooter>
     <div class=trifooterpartduo>
@@ -18,7 +18,7 @@
         <div><a href="#">Lorem Ipsum</a></div>
       </div>
     </div>
-    <div class=zelogo>Logo</div>
+    <div class=zelogo><img class="h-32" style="border-style: none" src="img/coq.png" alt=""></div>
     <div>
       <div class=trifooterpartsolo>
         
