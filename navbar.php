@@ -11,14 +11,14 @@
     </li>
     
     <?php else:?>
-   <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article" href="inscription.php">S'inscrire </a>
-    <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article" href="connexion.php">Se connecter</a>
+   <a href="#inscription" class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article" >S'inscrire </a>
+    <a href="#connexion" class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article" >Se connecter</a>
     <?php endif?>
-         <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article " href="index.php">
+         <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold  py-2 mr-8 hover-article" href="index.php">
             Accueil
         </a>
-        <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article " href="#">
-            Article
+        <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold  py-2 mr-8 hover-article" href="#">
+            Archives
         </a>
         <div class="dropdown  relative">
     <button class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold py-2 mr-8 hover-article">
@@ -30,7 +30,7 @@
       <li class=""><a class="rounded-b bg-white hover:bg-blue-200 py-2 px-2 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
     </ul>
   </div>
-        <a class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold  py-2 mr-8 hover-article" href="#">
+        <a href="#contact" class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold  py-2 mr-8 hover-article" href="contact.php">
             Contact
         </a>
     </div>
@@ -87,4 +87,7 @@
                     </a>
                 </div>
         </nav>
-       
+    <?php include 'contact_modal.php';
+  include 'connexion_modal.php';
+  include 'inscription_modal.php';
+  ?>

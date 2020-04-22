@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #d8dcde;
 }
 .SNS {
     width: 350px;
@@ -17,6 +18,9 @@
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
 }
 .article p {
     margin-top: 20px;
@@ -27,8 +31,7 @@
 }
 .articlefoot {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -51,6 +54,10 @@
     flex-direction: column;
     width: 30%;
     align-items: center;
+}
+.articleimg {
+    display: flex;
+    align-self: center;
 }
 @media (max-width:700px) {
     .article {

@@ -1,11 +1,12 @@
 <div class='articletotal'>
     <div class='article'>
         <div class='articleimg'>
-            <img src='img/post01.jpg'>
+            <div><img src='img/post01.jpg'></div>
         </div>
         <div class='articletitle'>
             <p>Le titre qui va bien ici</p>
         </div>
+        <div>
         <div class='articlecontent'>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -23,6 +24,7 @@
                 <li><a href=''>Tag</a></li>
             </ul>
             <p>Date et Heure de l'article</p>
+        </div>
         </div>
         <div>
             <p>DERNIERS ARTICLES<p>

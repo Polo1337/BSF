@@ -1,15 +1,23 @@
 <main class=" main flex flex-row max-w-screen-lg mx-auto">
 
-<section class="flex   flex-wrap news w-3/4 " style=" justify-content: center;">
+<section class="flex  flex-wrap news w-3/4  " style=" justify-content: center;">
     <article id="featured" class="text-center  ">
-        <a href="#"><img class="flex" src="img/dark.jpg" alt="" /></a>
+        <a href="article.php"><img class="flex" src="img/guerre.jpg" alt="" /></a>
         <div class="momo ">
-            <h1>Un barbecue Dark Vador, pour révéler le côté obscur des grillades</h1>
+            <h1>La Guerre a changer ! </h1>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis, nec cursus ipsum arcu nec felis. Mauris sed lectus dui. Suspendisse enim elit, tempor ac ullamcorper et, eleifend quis sem. Sed euismod sagittis ligula, a imperdiet sapien molestie nec. Curabitur ut eros a justo fermentum vulputate ac sit amet metus.</p>
-        <a href="#" class="readmore">Read more</a>
+        <a href="article.php" class="readmore">Read more</a>
     </article>
-    
+
+     <article id="featured" class="text-center  ">
+        <a href="article.php"><img class="flex" src="img/dark.jpg" alt="" /></a>
+        <div class="momo ">
+            <h1>Un barbecue Dark vador , pour révéler le coté obscur des grillades </h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor, tortor at vulputate blandit, magna risus posuere turpis, nec cursus ipsum arcu nec felis. Mauris sed lectus dui. Suspendisse enim elit, tempor ac ullamcorper et, eleifend quis sem. Sed euismod sagittis ligula, a imperdiet sapien molestie nec. Curabitur ut eros a justo fermentum vulputate ac sit amet metus.</p>
+        <a href="article.php" class="readmore">Read more</a>
+    </article>
     
     <article class=" text-center">
         <a href="#"><img src="img/cul.jpg" alt="" /></a>

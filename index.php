@@ -1,4 +1,5 @@
-<?php require "boot.php"?>
+<?php require "log.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +10,16 @@
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cheat.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css" />
-  <link rel="stylesheet" href="css/cheat.css">
+
   
 </head>
 <body style="background-color:#d8dcde;">
   <?php include 'navbar.php';
   include 'card.php';
   include 'footer.php';
-  
   ?>
   <div id="fb-root"></div>
 

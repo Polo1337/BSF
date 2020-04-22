@@ -112,6 +112,11 @@ article p {
   display: block;
 }
 
+.faiteplace{
+    flex-grow: 1;
+    display: flex;
+}
+
 @media (max-width:950px) {
     .section {
         flex-direction: column;
