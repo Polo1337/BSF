@@ -43,8 +43,7 @@ img {
 
 
 article {
-    width: 280px;
-    margin-right: 40px;
+   
     display: inline-block;
     vertical-align: top;
     margin-bottom: 20px;
@@ -98,8 +97,19 @@ article p {
 
 .hover-article a:hover{
      color: #e00025;
-    text-decoration: underline ;
+    text-decoration-line: underline ;
     text-underline-position: under;
+}
+.hover-article button:hover{
+     color: #e00025;
+    text-decoration-line: underline ;
+    text-underline-position: under;
+}
+.hover a:hover{
+    color:#4299e1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 @media (max-width:950px) {
@@ -110,5 +120,13 @@ article p {
     }
     .article{
         flex-wrap: nowrap;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .SNS {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
