@@ -26,13 +26,10 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 23px;
-    padding-bottom: 27px;
 }
 .trifooterpartduo {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
-    margin-top: 10px;
     padding: 8px;
 }
 
@@ -44,7 +41,6 @@ footer {
 
 .zelogo {
     font-size: 40px;
-    padding-top: 3px;
 }
 p {
     font-weight : bold;
