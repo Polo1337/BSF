@@ -1,29 +1,29 @@
 
 
-<footer class="bg-blue-500">
+<footer class="footer h-32">
   
-  <div class=trifooter>
-    <div class=trifooterpartduo>
-      <div class=trifooterpart>
+  <div class="trifooter">
+    <div class="trifooterpartduo bg-blue-300 w-2/6 h-32" >
+      <div class="trifooterpart">
         <p>Lorem Ipsum</p>
         <div><a href="#">Lorem Ipsum</a></div>
         <div><a href="#">Lorem Ipsum</a></div>
         <div><a href="#">Lorem Ipsum</a></div>
         
       </div>
-      <div class=trifooterpart>
+      <div class="trifooterpart">
         <p>Lorem Ipsum</p>
         <div><a href="#">Lorem Ipsum</a></div>
         <div><a href="#">Lorem Ipsum</a></div>
         <div><a href="#">Lorem Ipsum</a></div>
       </div>
     </div>
-    <div class=zelogo><img class="h-32" style="border-style: none" src="img/coq.png" alt=""></div>
-    <div>
-      <div class=trifooterpartsolo>
+    <div class="zelogo bg-white w-2/6 h-32"><img class="h-32" style="border-style: none" src="img/coq.png" alt=""></div>
+    <div class=" bg-red-300 w-2/6 h-32">
+      <div class="trifooterpartsolo ">
         
         <div>
-          <div class=footawesome>
+          <div class="footawesome">
             <div><a href="#"><i class="fab fa-twitter-square"></i></a></div>
             <div><a href="#"><i class="fab fa-facebook-square"></i></a></div>
           </div>
@@ -33,6 +33,7 @@
     </div>
   </div>
 </footer>
+
 
 <div id="back-to-top">
   <button onclick="topFunction()" id="totop" title="back-to-top"><i class="fas fa-chevron-up"></i></button> 

@@ -29,11 +29,11 @@
       <li class=""><a class="bg-white hover:bg-blue-200 py-2 px-2 block whitespace-no-wrap" href="#">Two</a></li>
       <li class=""><a class="rounded-b bg-white hover:bg-blue-200 py-2 px-2 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
     </ul>
-  </div>
+ 
         <a href="#contact" class="no-underline text-grey-dark text-white border-b-2 border-transparent uppercase tracking-wide font-bold  py-2 mr-8 hover-article" href="contact.php">
             Contact
         </a>
-    </div>
+   
 </nav>
 <nav class="bg-white px-8 pt-2 py-3 shadow-md">
     <div class="-mb-px flex justify-center">
