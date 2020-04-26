@@ -9,6 +9,7 @@
   
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cheat.css">
   <link rel="stylesheet" href="css/modal.css">
@@ -16,7 +17,7 @@
 
   
 </head>
-<body style="background-color:#d8dcde;">
+<body >
   <?php include 'navbar.php';
   include 'card.php';
   include 'footer.php';
@@ -36,7 +37,9 @@
     <source src="france.ogg">
     <source src="france.mp3">
 </audio></div>
-
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
   <script src="https://kit.fontawesome.com/22fcc891fe.js" crossorigin="anonymous"></script>
   <script>

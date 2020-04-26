@@ -40,6 +40,14 @@ img {
     font-family: 'Bangers', cursive;
     letter-spacing: 3rm;
 }
+.momo2 {
+   
+    
+    letter-spacing: 3rm;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
 
 
 article {
@@ -117,6 +125,8 @@ article p {
     display: flex;
 }
 
+
+
 @media (max-width:950px) {
     .section {
         flex-direction: column;
@@ -134,4 +144,5 @@ article p {
         margin-left: auto;
         margin-right: auto;
     }
+    
 }

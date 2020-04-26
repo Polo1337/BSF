@@ -3,7 +3,7 @@
     <div id="inscription" class="modal" style="opacity:0">
         <div class="content-modal">
           
-           <form class="bg-white rounded px-8 pt-6 pb-8 mb-4" action="" method="POST">
+           <form action="" method="POST">
 
 
 <label class="block text-gray-700 text-dm font-bold mb-2"><b>Pseudo d'utilisateur</b></label >

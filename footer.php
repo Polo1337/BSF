@@ -3,7 +3,7 @@
 <footer class="footer h-32">
   
   <div class="trifooter">
-    <div class="trifooterpartduo bg-blue-300 w-2/6 h-32" >
+    <div class="trifooterpartduo bg-blue-500 w-2/6 h-32" >
       <div class="trifooterpart">
         <p>Lorem Ipsum</p>
         <div><a href="#">Lorem Ipsum</a></div>
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="zelogo bg-white w-2/6 h-32"><img class="h-32" style="border-style: none" src="img/coq.png" alt=""></div>
-    <div class=" bg-red-300 w-2/6 h-32">
+    <div class=" bg-red-700 w-2/6 h-32">
       <div class="trifooterpartsolo ">
         
         <div>

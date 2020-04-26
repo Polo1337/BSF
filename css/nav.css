@@ -1,0 +1,188 @@
+
+body{
+    background-color: #d8dcde;
+}
+.topnav {
+    background-color:#4299e1 ;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
+    height: 3.5em;
+}
+
+.topnav > *:nth-last-child(2) {
+    margin-right: 2vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+.topnav a:hover {
+     color: #e00025;
+    text-decoration-line: underline ;
+    text-underline-position: under;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Display a transparent when scroll is on top by adding this class with js, it is the default state when the page is loaded  */
+
+nav.start a {
+    color: white;
+}
+
+nav.finish {
+    background-color: white;
+    -webkit-transition: background-color 0.2s ease-out 0.1s, height 0.2s ease-out, color 0.4s ease-out 0.5s;
+    transition: background-color 0.2s ease-out 0.1s, height 0.2s ease-out, color 0.4s ease-out 0.5s;
+    box-shadow: 0 0 5px #0000004f;
+}
+
+.topnav.finish a {
+    color: #171717;
+}
+
+
+
+
+@media screen and (min-width:678px) {
+
+    /* Media queries to shrink the height of the nav when not on mobile */
+
+    header {
+        height: 50vw;
+        background-size: cover;
+        background-position: center;
+        justify-content: flex-end;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header hr {
+        width: 13em;
+    }
+
+    header p {
+        margin: 0px 18vw;
+        font-size: 1.1em;
+        padding-bottom: 40px;
+        line-height: 1.30em;
+    }
+
+    nav.start {
+        height: 4em;
+        align-items: center;
+    }
+
+    nav.finish {
+        height: 4em;
+        align-items: center;
+    }
+
+    .topnav a {
+        padding: 10px 0px;
+        text-decoration: none;
+        font-size: 1.6vw;
+        margin: 0px 16px;
+    }
+
+    .underline {
+        position: relative;
+        color: white;
+        text-decoration: none;
+    }
+
+    .underline:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 1px;
+        left: 0;
+        background-color: #EFE8E2;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .underline:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+/* @media screen and (min-width:992px) {
+
+} */
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 678px) {
+    .topnav a {
+        display: none;
+        
+    }
+    .topnav{
+        justify-content: flex-start;
+    }
+    .cacher{
+        display: none;
+    }
+    .topnav a.icon {
+        line-height: 1.2em;
+        font-size: 1.5em;
+        float: right;
+        display: inline-flex;
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 678px) {
+    .topnav.responsive {
+        position: fixed;
+        flex-direction: column;
+        height: auto;  
+        box-shadow: 0 0 5px #0000004f;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        line-height: 1.2em;
+        font-size: 1.5em;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        background-color: white;
+        color: #171717;  
+        font-size: 1.3em;
+        padding-bottom: 1.2em;
+    }
+      .topnav.responsive a:hover {
+        background-color: #ef4135;
+        color: white;
+    }
+
+    .topnav.responsive a:first-child {
+        padding-top: 1.1em;
+    }
+}

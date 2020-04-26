@@ -1,10 +1,10 @@
 <?php
-require_once "Classes/Database.php";
+
 require_once "boot.php";
-require_once "Classes/UserTable.php";
+
 
 $db = new Database($config["utilisateur"],$config["mdp"], $config["dsn"]);
-
+$userTable = new UserTable($db);
 
 
 if (isset($_POST['inscription'])){
@@ -17,17 +17,19 @@ if (isset($_POST['inscription'])){
     if ($pseudo_user === null || $nom_user === null || $prenom_user === null || $email_user === null || $password_user === null) {
         $erreur = 'Veuillez remplir tous les champs';
     }else {
-        $inscription = $db->prepareAndExecute("INSERT INTO utilisateur (Email, mot_de_passe, Prenom, Nom, Pseudo) 
-        VALUES (:Email, :mot_de_passe, :Prenom, :Nom, :Pseudo)",
-        [':Email' => $email_user,
-        ':mot_de_passe' => password_hash($password_user, PASSWORD_DEFAULT ),
-        ':Prenom' => $prenom_user,
-        ':Nom'=>$nom_user,
-        ':Pseudo'=>$prenom_user]) ;
-        header('Location: https://lefevre.simplon-charleville.fr/BSF/#close');
+         $user = new User();
+        $user->nom = $nom_user;
+        $user->prenom =  $prenom_user;
+        $user->mot_de_passe =  $password_user;
+        $user->pseudo = $pseudo_user;
+        $user->email = $email_user;
+        $userTable->insertUser($user);
+          header('Location: https://lefevre.simplon-charleville.fr/BSF/#close');
         die;
     }
 }
+      
+
 if (isset($_POST['login'])){
     $pseudo_user = empty($_POST['pseudo_user']) ? null : $_POST['pseudo_user'];
     $password_user = empty($_POST['password_user']) ? null : $_POST['password_user'];

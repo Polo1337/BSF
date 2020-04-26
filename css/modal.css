@@ -48,8 +48,7 @@
     position: relative;
     display: -webkit-box;
     display: flex;
-    -webkit-box-pack: space-evenly;
-    justify-content: space-evenly;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;

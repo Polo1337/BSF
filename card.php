@@ -1,4 +1,4 @@
-<main class=" main flex flex-row max-w-screen-lg mx-auto">
+<main class=" main flex flex-row max-w-screen-lg mx-auto ">
 
 <section class="flex  flex-wrap news w-3/4  " style=" justify-content: center;">
     <article id="featured" class="text-center  ">
@@ -64,8 +64,8 @@
     </section>
     
     
-    <div class="SNS md:w-1/4 news m-4">
-        <div id="fb-root">
+    <div class="SNS  news m-4 ">
+        <div id="fb-root ">
             <div class="fb-page " data-href="https://www.facebook.com/BonSensFrancais" data-tabs="timeline"
             data-width="350px" data-height="" data-small-header="false" data-adapt-container-width="true"
             data-hide-cover="false" data-show-facepile="true">
@@ -73,5 +73,120 @@
                 href="https://www.facebook.com/BonSensFrancais%22%3ELe Bon Sens Français"></a></blockquote>
             </div>
         </div>
+        <br>
+        <table class="table-auto text-sm sticky top-0 m-4  overflow-hidden ">
+  <thead>
+    <tr class="bg-blue-300">
+      <th class=" py-2 border border-blue-500">Derniers articles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="bg-white">
+      <td class="border  border-blue-500 text-center py-2">La Guerre a changer ! </td>
+     
+    </tr>
+    <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Un barbecue Dark vador , pour révéler le coté obscur des grillades  </td>
+    </tr>
+    <tr class="bg-white " >
+      <td class="border  border-blue-500 text-center py-2">Top 10 des mots classes pour parler de cul, pour être salace mais chic</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Un barbecue Dark vador , pour révéler le coté obscur des grillades  </td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 10 des mots classes pour parler de cul, pour être salace mais chic </td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 15 des pires insultes, celles qui font très mal à ton amour propre </td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 10 des dessins d’enfants les plus foirés de l’Histoire, enfin quand on comprend rien à l’Art </td>
+    </tr>
+    <tr class="bg-blue-300 ">
+      <td class="border  border-blue-500 text-center py-2"><img class="" style="border-style: none" src="img/BSF.png" alt=""> </td>
+    </tr>
+  </tbody>
+</table>
+ <table class="table-auto text-sm sticky top-0 m-4  overflow-hidden ">
+  <thead>
+    <tr class="bg-blue-300">
+      <th class=" py-2 border border-blue-500">Les plus vues</th>
+      <th class=" py-2 border border-blue-500">Vues</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="bg-white">
+      <td class="border  border-blue-500 text-center py-2">La Guerre a changer ! </td>
+     <td class="border  border-blue-500 text-center py-2">9600</td>
+    </tr>
+    <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Un barbecue Dark vador , pour révéler le coté obscur des grillades  </td>
+      <td class="border  border-blue-500 text-center py-2 px-2">9600</td>
+    </tr>
+    <tr class="bg-white " >
+      <td class="border  border-blue-500 text-center py-2">Top 10 des mots classes pour parler de cul, pour être salace mais chic</td>
+      <td class="border  border-blue-500 text-center py-2  px-2">9600</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Un barbecue Dark vador , pour révéler le coté obscur des grillades  </td>
+      <td class="border  border-blue-500 text-center py-2  px-2">9600</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 10 des mots classes pour parler de cul, pour être salace mais chic </td>
+      <td class="border  border-blue-500 text-center py-2  px-2">9600</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 15 des pires insultes, celles qui font très mal à ton amour propre </td>
+      <td class="border  border-blue-500 text-center py-2  px-2">9600</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 10 des dessins d’enfants les plus foirés de l’Histoire, enfin quand on comprend rien à l’Art </td>
+      <td class="border  border-blue-500 text-center py-2  px-2">9600</td>
+    </tr>
+  
+  </tbody>
+  
+</table>
+ <table class="table-auto text-sm sticky top-0 m-4  overflow-hidden ">
+  <thead>
+    <tr class="bg-blue-300">
+      <th class=" py-2 border border-blue-500">Les plus commentés</th>
+      <th class=" py-2 border border-blue-500">Commentaires</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="bg-white">
+      <td class="border  border-blue-500 text-center py-2">La Guerre a changer ! </td>
+     <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+    <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Un barbecue Dark vador , pour révéler le coté obscur des grillades  </td>
+       <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+    <tr class="bg-white " >
+      <td class="border  border-blue-500 text-center py-2">Top 10 des mots classes pour parler de cul, pour être salace mais chic</td>
+       <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Un barbecue Dark vador , pour révéler le coté obscur des grillades  </td>
+       <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 10 des mots classes pour parler de cul, pour être salace mais chic </td>
+       <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 15 des pires insultes, celles qui font très mal à ton amour propre </td>
+       <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+      <tr class="bg-white ">
+      <td class="border  border-blue-500 text-center py-2">Top 10 des dessins d’enfants les plus foirés de l’Histoire, enfin quand on comprend rien à l’Art </td>
+       <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+    </tr>
+
+  </tbody>
+</table>
+
     </div>
     </main>
