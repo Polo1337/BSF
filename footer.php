@@ -19,9 +19,8 @@
       </div>
     </div>
     <div class="zelogo bg-white w-2/6 h-32"><img class="h-32" style="border-style: none" src="img/coq.png" alt=""></div>
-    <div class=" bg-red-700 w-2/6 h-32">
-      <div class="trifooterpartsolo ">
-        
+    <div class=" bg-red-700 w-2/6 h-32 trifooterpartsoloa">
+      <div class="trifooterpartsolo">
         <div>
           <div class="footawesome">
             <div><a href="#"><i class="fab fa-twitter-square"></i></a></div>

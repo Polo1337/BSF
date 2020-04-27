@@ -60,6 +60,7 @@ article {
     background-color: white;
     *display: inline;
     zoom: 1;
+    width: 630px;
 }
 
 .readmore {

@@ -86,13 +86,23 @@ footer a:hover {
     .trifooterpartduo {
         flex-direction: row;
         justify-content: space-evenly;
+        width: 100%;
     }
     .trifooterpartsolo {
         justify-content: center;
         padding-left: auto;
         padding-right: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .trifooterpartsoloa {
+        width: 100%;
+        padding-bottom: 0;
     }
     footer {
         font-size: large;
+    }
+    .zelogo {
+        width: 100%;
     }
 }
