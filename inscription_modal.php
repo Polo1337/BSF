@@ -7,19 +7,19 @@
 
 
 <label class="block text-gray-700 text-dm font-bold mb-2"><b>Pseudo d'utilisateur</b></label >
-<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="text" name="pseudo_user" required> <br>
+<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="text" name="pseudo" required> <br>
 
 <label class="block text-gray-700 text-dm font-bold mb-2"><b>Nom d'utilisateur</b></label >
-<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="text" name="nom_user" required> <br>
+<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="text" name="nom" required> <br>
 
 <label class="block text-gray-700 text-dm font-bold mb-2"><b>Prenom d'utilisateur</b></label>
-<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="text" name="prenom_user" required> <br>
+<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="text" name="prenom" required> <br>
 
 <label class="block text-gray-700 text-dm font-bold mb-2"><b>Email d'utilisateur</b></label >
-<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="email" name="email_user" required> <br>
+<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "  type="email" name="email" required> <br>
 
 <label class="block text-gray-700 text-dm font-bold mb-2"><b>Mot de passe</b></label >
-<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "   type="password" placeholder="Mot de passe" name="password_user" required>
+<input  class="shadow appearance-none border rounded w-64 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "   type="password" placeholder="Mot de passe" name="mdp" required>
 <br>
 
 <div class="bouton">

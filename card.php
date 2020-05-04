@@ -103,9 +103,7 @@
       <tr class="bg-white ">
       <td class="border  border-blue-500 text-center py-2">Top 10 des dessins d’enfants les plus foirés de l’Histoire, enfin quand on comprend rien à l’Art </td>
     </tr>
-    <tr class="bg-blue-300 ">
-      <td class="border  border-blue-500 text-center py-2"><img class="" style="border-style: none" src="img/BSF.png" alt=""> </td>
-    </tr>
+  
   </tbody>
 </table>
  <table class="table-auto text-sm sticky top-0 m-4  overflow-hidden ">
@@ -183,7 +181,9 @@
       <tr class="bg-white ">
       <td class="border  border-blue-500 text-center py-2">Top 10 des dessins d’enfants les plus foirés de l’Histoire, enfin quand on comprend rien à l’Art </td>
        <td class="border  border-blue-500 text-center py-2  px-2">30</td>
+       
     </tr>
+    
 
   </tbody>
 </table>

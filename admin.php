@@ -1,6 +1,5 @@
 <?php 
 require "boot.php";
-require "Database.php";
 require "securite.php";
 $dbh = new PDO($config["dsn"], $config["utilisateur"], $config["mdp"]);
 ?>

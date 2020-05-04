@@ -1,18 +1,17 @@
 <?php 
 require_once "boot.php";
-require_once "Database.php";
-require_once "UserTable.php";
-
 class User
 {
    
-    public $ID_utilisateur;
+    public $id_utilisateur;
     public $nom;
     public $prenom;
-    public $mot_de_passe;
+    public $mdp;
     public $pseudo;
     public $email;
     public $admin;
+    public $token;
+    public $id_grade = 1;
     
     public function __construct()
     {

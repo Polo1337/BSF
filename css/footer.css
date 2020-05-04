@@ -25,12 +25,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
     
 }
 .trifooterpartduo {
     display: flex;
     flex-direction: row;
     padding: 8px;
+    justify-content: center;
 }
 
 .listabout {
