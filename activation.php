@@ -4,36 +4,36 @@ require "boot.php";
 $db = new Database($config["utilisateur"],$config["mdp"], $config["dsn"]);
 $userTable = new UserTable($db);
 
-if(empty($_GET['pseudo']))
+if(empty($_GET['pseudo_user']))
 {
   $erreur = "Erreur Pseudo";
   die;
 }
-if(empty($_GET['token']))
+if(empty($_GET['token_user']))
 {
   $erreur = "Erreur token";
   die;
 }
-$Pseudo = $_GET['pseudo'];
-$token = $_GET['token'];
+$pseudo_user = $_GET['pseudo_user'];
+$token_user = $_GET['token_user'];
 
 
-$user = $userTable->recupParPseudo($Pseudo);
+$user = $userTable->recupParPseudo($pseudo_user);
 if($user === null){
   $erreur = "User invalid";
   die;
 }
-if($user->actif == 1)
+if($user->etat_user == 1)
 {
   echo "Votre compte est déjà actif !";
 }
 else 
 {
  
-  if($token == $user->token)    
+  if($token_user == $user->token_user)    
   {
 
-     $userTable->activationtoken($user->pseudo);
+     $userTable->activationtoken($user->pseudo_user);
       
       echo "Votre compte a bien été activé !";
       echo "<a href='index.php'>Retour a la page de connexion</a>";
