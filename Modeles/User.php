@@ -15,7 +15,7 @@ class User
     public $pays_user;
     public $lastlog_user;
     public $token_user;
-    public $avatar_user;
+    public $avatar_user = 'blank.png';
     public $ville_user;
     public $raisonduban_user;
     public $id_type_user = 1;

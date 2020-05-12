@@ -5,10 +5,14 @@ class Article
    
     public $id_article;
     public $nom_article;
-    public $date_de_parution;
-    public $photo_card;
-    public $text_card;
-    public $archive = 0;
-    public $id_utilisateur;
+    public $datecreation_article;
+    public $image_article;
+    public $texte_article;
+    public $dateparution_article;
+    public $numero_article;
+    public $publie_article;
+    public $id_user;
+    public $id_articlenum;
+    public $id_categorie;
     
 }

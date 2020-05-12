@@ -23,7 +23,8 @@
   include 'footer.php';
   ?>
   <div id="fb-root"></div>
-
+<script src="jquery-2.1.0.min.js"></script>
+<script src="js/js.js"></script>
  <script src="js/konami.js"></script>
   <script>
     var easter_egg = new Konami(function() {

@@ -43,7 +43,7 @@ class UserTable
         $tab = [];
         foreach ($tableau as $Users)
         {
-            $tab[$Users['id_utilisateur']]  = $this->createUserFromDbResult($Users);
+            $tab[$Users['id_user']]  = $this->createUserFromDbResult($Users);
             
         }
          return $tab;
@@ -83,20 +83,20 @@ class UserTable
     public function updateUser($user)
     {
        $inscription = $this->db->prepareAndExecute("UPDATE T_User SET
-            nom = :nom, 
-            prenom = :prenom,
-            pseudo = :pseudo,
-            email = :email, 
-            mdp = :mdp,
-            id_grade = :id_grade
-            WHERE id_utilisateur = :ID",
-            [':ID' => $user->id_utilisateur,
-                ':email' => $user->email,
-        ':mdp' => password_hash($user->mdp, PASSWORD_DEFAULT ),
-        ':prenom' => $user->prenom,
-        ':nom'=>$user->nom,
-        ':pseudo'=>$user->pseudo,
-        ':id_grade'=>$user->id_grade] );
+            nom_user = :nom_user, 
+            prenom_user = :prenom_user,
+            pseudo_user = :pseudo_user,
+            mail_user = :mail_user, 
+            password_user = :password_user,
+            id_type_user = :id_type_user
+            WHERE id_user = :ID",
+            [':ID' => $user->id_user,
+                ':mail_user' => $user->mail_user,
+        ':password_user' => password_hash($user->password_user, PASSWORD_DEFAULT ),
+        ':prenom_user' => $user->prenom_user,
+        ':nom_user'=>$user->nom_user,
+        ':pseudo_user'=>$user->pseudo_user,
+        ':id_type_user'=>$user->id_type_user] );
     }
 
     public function selectIdGrade($user)
@@ -119,7 +119,8 @@ class UserTable
         
          $this->db->prepareAndExecute("UPDATE T_User SET lastlog_user = NOW() WHERE pseudo_user = :pseudo_user",[':pseudo_user' => $pseudo_user]);
     }
-      
+    
+  
 
     protected function createUserFromDbResult($tableau)
     {

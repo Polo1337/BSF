@@ -3,10 +3,16 @@
    <a class="text-white " >Bonjour <?php echo $_SESSION["Pseudo"];?></a>
 
         <a  href="logout.php">déconnexion</a>
+         <a  href="compte_user.php">
+            Compte
+        </a>
 
         <?php if(isset($_SESSION["is_admin"]) && $_SESSION["is_admin"]):?>
 
         <a  href="admin.php">Admin</a>
+         <a  href="#">
+            Archives
+        </a>
         <?php endif?>
     
     <?php else:?>
@@ -16,10 +22,6 @@
          <a  href="index.php">
             Accueil
         </a>
-        <a  href="#">
-            Archives
-        </a>
- 
         <a href="#contact"  href="contact.php">
             Contact
         </a>

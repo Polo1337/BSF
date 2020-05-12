@@ -3,12 +3,12 @@ require_once "boot.php";
 class Commentaire
 {
    
-    public $id_utilisateur;
-    public $id_article;
+    public $id_user;
+    public $id_articlenum;
     public $id_commentaire;
-    public $texte;
-    public $modere = 0;
-    public $date;
+    public $contenu_commentaire;
+    public $date_commentaire;
+    public $id_numcommentaire;
     
     public function __construct()
     {

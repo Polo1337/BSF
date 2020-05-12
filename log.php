@@ -18,7 +18,9 @@ if (isset($_POST['inscription'])){
     $adresse_user = empty($_POST['adresse_user']) ? null : $_POST['adresse_user'];
     $pays_user = empty($_POST['pays_user']) ? null : $_POST['pays_user'];
     
-   
+    if ($pseudo_user === null || $password_user === null || $prenom_user === null || $mail_user === null || $nom_user === null || $ville_user === null || $birth_user === null || $adresse_user === null || $pays_user === null) {
+        echo 'Veuillez remplir tous les champs';
+    }else {
         $token_user = md5(microtime(TRUE)*100000);
 
         $user = new User();
@@ -56,6 +58,7 @@ if (isset($_POST['inscription'])){
         header('Location: index.php');
         die;   
     }
+}
     
 
       
@@ -80,6 +83,9 @@ if (isset($_POST['login'])){
         if(!password_verify($password_user, $utilisateur->password_user ?? '')) {
             $erreur =  "login et / ou mot de passe incorrect";
             
+        }
+        if($utilisateur->etat_user === 0){
+            $erreur =  "Veuillez activer votre compte.";
         }
         if( $erreur === null){
             if (session_status() === PHP_SESSION_NONE){
